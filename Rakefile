@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Edweng::Application.load_tasks
+AnkitGupta::Application.load_tasks
