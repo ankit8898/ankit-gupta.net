@@ -1,0 +1,52 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background: url(brickwall.png);
+}
+
+.social > li {
+  float: left;
+  padding-right: 20px;
+}
+
+a.social {
+  opacity:0.4;
+  filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+a.social:hover {
+  opacity:1.0;
+  filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+@font-face {
+    font-family: 'MomsTypewriterRegular';
+    src: url('Moms_typewriter-webfont.eot');
+    src: url('Moms_typewriter-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Moms_typewriter-webfont.woff') format('woff'),
+         url('Moms_typewriter-webfont.ttf') format('truetype'),
+         url('Moms_typewriter-webfont.svg#MomsTypewriterRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1.bio, h2.bio, h3.bio {
+  font-family: 'MomsTypewriterRegular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1.bio {
+  font-size: 80px;
+  line-height: 100px;
+}
+
+h2.bio {
+  font-size: 30px;
+  line-height: 50px;
+}
+
+h3.bio {
+  font-size: 20px;
+  line-height: 30px;
+}

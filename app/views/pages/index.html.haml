@@ -1,0 +1,30 @@
+.container-fluid{style: "padding-right: 0px"}
+  .row-fluid
+    .span9
+      .bio-bottom{style: "position:relative; min-height:100px; min-width:960px; width:60%; left:15%; margin-top:10%; overflow: auto;"}
+        %div{style: "padding-bottom:30px"}
+          %h1.bio Ankit Gupta .
+        %div{style: "padding-left:50px"}
+          %h2.bio
+            An Agilist,
+            = link_to 'Rubyist,',  'https://rubygems.org/profiles/ankit8898'
+            Open Source lover
+            & 
+            = link_to 'Rails contributor', 'http://contributors.rubyonrails.org/contributors/ankit-gupta/commits'
+            = image_tag 'heart-icon.png',height: '32', width: '32'
+            
+          %h2.bio
+            Currently I.T Analyst @ 
+            = link_to 'tcs.com','http://www.tcs.com',target: '_blank'
+        %br/
+        %br/
+        %br/
+        %ul.social.unstyled{style: "padding-left:50px"}
+          %li
+            %a.social.github{href: "http://www.github.com/ankit8898",target: '_blank'}
+          %li
+            %a.social.facebook{href: "facebook.com/ankit.8898",target: '_blank'}
+          %li
+            %a.social.twitter{href: "http://www.twitter.com/ankit8898",target: '_blank'}
+          %li
+            %a.social.linkedin{href: "http://www.linkedin.com/pub/ankit-gupta/25/205/254",target: '_blank'}
