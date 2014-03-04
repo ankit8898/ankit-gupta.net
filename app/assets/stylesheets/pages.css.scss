@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-  background: image_url("brickwall.png");
+  background: image_url("fabric_of_squares_gray.png");
 }
 
 .social > li {
@@ -12,7 +12,7 @@ body {
 }
 
 a.social {
-  opacity:0.4;
+  opacity:0.6;
   filter:alpha(opacity=40); /* For IE8 and earlier */
 }
 
